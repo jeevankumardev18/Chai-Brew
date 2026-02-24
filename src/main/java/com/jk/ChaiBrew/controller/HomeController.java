@@ -20,4 +20,8 @@ public class HomeController
 		return user;
 	}
 	
+	public void handleValidations()
+	{
+		System.out.println("Handled in this method");
+	}
 }
